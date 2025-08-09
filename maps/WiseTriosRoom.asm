@@ -21,7 +21,7 @@ WiseTriosRoom_MapScripts:
 	end
 
 .WiseTrioCallback:
-	checkevent EVENT_FOUGHT_
+	checkevent EVENT_FOUGHT_SUICUNE
 	iftrue .NoWiseTrio
 	checkevent EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
 	iftrue .WiseTrio2
