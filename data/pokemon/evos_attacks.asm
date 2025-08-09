@@ -2277,7 +2277,7 @@ ChikoritaEvosAttacks:
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
-	db 50, SAFEGUARD
+	db 55, SAFEGUARD
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2288,14 +2288,16 @@ BayleefEvosAttacks:
 	db 1, RAZOR_LEAF
 	db 1, REFLECT
 	db 15, POISONPOWDER
+	db 18, MUD_SLAP
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
+	db 28, DIG
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
-	db 50, SAFEGUARD
+	db 55, SAFEGUARD
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2305,14 +2307,17 @@ MeganiumEvosAttacks:
 	db 1, RAZOR_LEAF
 	db 1, REFLECT
 	db 15, POISONPOWDER
+	db 18, MUD_SLAP
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
+	db 28, DIG
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
-	db 50, SAFEGUARD
+	db 50, EARTHQUAKE
+	db 55, SAFEGUARD
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2327,7 +2332,7 @@ CyndaquilEvosAttacks:
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
 	db 38, FLAMETHROWER
-	db 50, FIRE_BLAST
+	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -2338,11 +2343,12 @@ QuilavaEvosAttacks:
 	db 1, SMOKESCREEN
 	db 1, EMBER
 	db 16, DEFENSE_CURL
+	db 18, DOUBLE_KICK 
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
 	db 38, FLAMETHROWER
-	db 50, FIRE_BLAST
+	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
@@ -2352,11 +2358,14 @@ TyphlosionEvosAttacks:
 	db 1, SMOKESCREEN
 	db 1, EMBER
 	db 16, DEFENSE_CURL
+	db 18, DOUBLE_KICK 
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
+	db 36, COUNTER 
 	db 38, FLAMETHROWER
-	db 50, FIRE_BLAST
+	db 50, HI_JUMP_KICK
+	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
@@ -2366,12 +2375,13 @@ TotodileEvosAttacks:
 	db 1, LEER
 	db 7, WATER_GUN
 	db 12, RAGE
-	db 21, BITE
+	db 18, BITE
+	db 20, BUBBLEBEAM
 	db 28, SCARY_FACE
 	db 37, SLASH
 	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 50, CRUNCH
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2381,12 +2391,14 @@ CroconawEvosAttacks:
 	db 1, LEER
 	db 1, WATER_GUN
 	db 1, RAGE
-	db 21, BITE
+	db 18, BITE
+	db 20, BUBBLEBEAM
+	db 25, DRAGON_RAGE
 	db 28, SCARY_FACE
 	db 37, SLASH
 	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 50, CRUNCH
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
@@ -2395,12 +2407,15 @@ FeraligatrEvosAttacks:
 	db 1, LEER
 	db 7, WATER_GUN
 	db 12, RAGE
-	db 21, BITE
+	db 18, BITE
+	db 20, BUBBLEBEAM
+	db 25, DRAGON_RAGE
 	db 28, SCARY_FACE
+	db 30, DRAGONBREATH
 	db 37, SLASH
 	db 45, SCREECH
-	db 50, HYDRO_PUMP
-	db 55, CRUNCH
+	db 50, CRUNCH
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
