@@ -21,7 +21,7 @@ WiseTriosRoom_MapScripts:
 	end
 
 .WiseTrioCallback:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_
 	iftrue .NoWiseTrio
 	checkevent EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
 	iftrue .WiseTrio2
@@ -131,8 +131,8 @@ WiseTriosRoomSageAllowsPassageMovement:
 WiseTriosRoomSage1Text:
 	text "Astounding…"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
+	para "RAIKOU, ENTEI and"
+	line "SUICUNE have arisen"
 	cont "from their sleep…"
 
 	para "Is the legend"
@@ -161,7 +161,7 @@ WiseTriosRoomSage3BlocksExitText:
 	line "GYM BADGE."
 
 	para "However, now that"
-	line "SUICUNE, RAIKOU"
+	line "RAIKOU, SUICUNE"
 
 	para "and ENTEI have"
 	line "arisen, I ask you"
@@ -198,7 +198,7 @@ SageGakuSeenText:
 	line "come true!"
 
 	para "The legendary"
-	line "#MON SUICUNE"
+	line "#MON RAIKOU"
 	cont "has arrived!"
 
 	para "We, the WISE TRIO,"
@@ -217,8 +217,8 @@ SageGakuAfterBattleText:
 	text "Ah, so it is you"
 	line "who claim to have"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
+	para "seen RAIKOU,"
+	line "ENTEI and SUICUNE"
 	cont "while they slept?"
 
 	para "Unbelievable!"
@@ -331,14 +331,14 @@ SageKojiAfterBattleSpeechText:
 	line "and enter the TIN"
 	cont "TOWER ahead."
 
-	para "SUICUNE will put"
+	para "RAIKOU will put"
 	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
 	text "Please, do go on."
 
-	para "SUICUNE will put"
+	para "RAIKOU will put"
 	line "you to the test."
 	done
 
