@@ -10,6 +10,6 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db RAIKOU
+	db SUICUNE
 	db ENTEI
 	db -1
