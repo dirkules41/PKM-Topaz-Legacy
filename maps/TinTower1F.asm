@@ -84,14 +84,14 @@ TinTower1F_MapScripts:
 .SuicuneBattle:
 	applymovement PLAYER, TinTower1FPlayerEntersMovement
 	pause 15
-	setval RAIKOU
+	setval SUICUNE
 	special MonCheck
 	iftrue .Next1 ; if player caught Raikou, it doesn't appear in Tin Tower
-	setval RAIKOU
+	setval SUICUNE
 	special UnusedSetSeenMon
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouApproachesMovement
 	turnobject PLAYER, LEFT
-	cry RAIKOU
+	cry SUICUNE
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouLeavesMovement
@@ -118,9 +118,9 @@ TinTower1F_MapScripts:
 	pause 10
 	applymovement PLAYER, TinTower1FPlayerBacksUpMovement
 	applymovement TINTOWER1F_SUICUNE, TinTower1FSuicuneApproachesMovement
-	cry SUICUNE
+	cry RAIKOU
 	pause 20
-	loadwildmon SUICUNE, 40
+	loadwildmon RAIKOU, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
 	startbattle
 	dontrestartmapmusic
@@ -321,13 +321,13 @@ TinTower1FEusineSuicuneText:
 	para "That was truly"
 	line "inspiring to see."
 
-	para "SUICUNE was tough,"
+	para "RAIKOU was tough,"
 	line "but you were even"
 
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard SUICUNE's"
+	para "I heard RAIKOU's"
 	line "mystic power"
 
 	para "summons a rainbow-"
@@ -394,8 +394,8 @@ TinTower1FSage2Text:
 
 	para "They are…"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU."
+	para "RAIKOU, ENTEI and"
+	line "SUICUNE."
 
 	para "That is what they"
 	line "say."
@@ -506,7 +506,7 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#MON, SUICUNE"
+	line "#MON, RAIKOU"
 
 	para "is said to be the"
 	line "closest to HO-OH."
@@ -521,7 +521,7 @@ TinTower1FSage6Text2:
 	line "must be sharing a"
 
 	para "cooperative bond"
-	line "with SUICUNE."
+	line "with RAIKOU."
 	done
 
 TinTower1F_MapEvents:
@@ -537,8 +537,8 @@ TinTower1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  9, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_SUICUNE
-	object_event  7,  9, SPRITE_RAIKOU, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_RAIKOU
+	object_event  9,  9, SPRITE_RAIKOU, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_SUICUNE
+	object_event  7,  9, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_RAIKOU
 	object_event 12,  9, SPRITE_ENTEI, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_ENTEI
 	object_event  8,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TinTower1FEusine, EVENT_TIN_TOWER_1F_EUSINE
 	object_event  5,  9, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage1Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
