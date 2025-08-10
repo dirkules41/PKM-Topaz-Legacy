@@ -2362,10 +2362,11 @@ TyphlosionEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
 	db 32, SWIFT
-	db 36, COUNTER 
-	db 38, FLAMETHROWER
-	db 50, HI_JUMP_KICK
+	db 36, VITAL_THROW
+	db 40, FLAMETHROWER
+	db 50, JUMP_KICK
 	db 55, FIRE_BLAST
+	db 65, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
@@ -2416,6 +2417,7 @@ FeraligatrEvosAttacks:
 	db 45, SCREECH
 	db 50, CRUNCH
 	db 55, HYDRO_PUMP
+	db 65, OUTRAGE
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -3413,10 +3415,12 @@ SkarmoryEvosAttacks:
 	db 1, EMBER
 	db 7, ROAR
 	db 12, BITE
-	db 17, SMOG
+	db 17, DOUBLE_KICK
 	db 22, FLAME_WHEEL
-	db 30, FAINT_ATTACK
+	db 28, ANCIENTPOWER
+	db 32, FAINT_ATTACK
 	db 39, FLAMETHROWER
+	db 44, JUMP_KICK
 	db 48, CRUNCH
 	db 0 ; no more level-up moves
 	
@@ -3426,10 +3430,12 @@ HoundoomEvosAttacks:
 	db 1, EMBER
 	db 1, ROAR
 	db 1, BITE
-	db 17, SMOG
+	db 17, DOUBLE_KICK
 	db 22, FLAME_WHEEL
-	db 30, FAINT_ATTACK
+	db 28, ANCIENTPOWER
+	db 32, FAINT_ATTACK
 	db 39, FLAMETHROWER
+	db 44, JUMP_KICK
 	db 48, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -3628,8 +3634,9 @@ RaikouEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 31, THUNDERBOLT
 	db 41, CRUNCH
-	db 51, REFLECT
+	db 51, EXTREMESPEED
 	db 61, THUNDER
+	db 71, REFLECT
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:
