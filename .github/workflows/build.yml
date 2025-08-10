@@ -32,7 +32,7 @@ jobs:
       run: |
         make clean
         make
-        mv pokecrystal.gbc "PKM Topaz Legacy.gbc"
+        mv pokecrystal.gbc "PKM Topaz Legacy Vx.x.gbc"
 
     - name: 📦 Upload ROM Artifact
       uses: actions/upload-artifact@v4
