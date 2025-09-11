@@ -27,7 +27,7 @@ Moves:
 	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,        30,  5,   0
 	move RAZOR_WIND,   EFFECT_RAZOR_WIND,         80, NORMAL,        95, 15,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
-	move CUT,          EFFECT_NORMAL_HIT,         55, BUG,          95,  30,   0
+	move CUT,          EFFECT_NORMAL_HIT,         55, BUG,           95, 30,   0
 	move GUST,         EFFECT_GUST,               40, FLYING,       100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
@@ -69,7 +69,7 @@ Moves:
 	move MIST,         EFFECT_MIST,                0, ICE,          100, 30,   0
 	move WATER_GUN,    EFFECT_NORMAL_HIT,         40, WATER,        100, 25,   0
 	move HYDRO_PUMP,   EFFECT_NORMAL_HIT,        120, WATER,         85, 10,   0
-	move SURF,         EFFECT_NORMAL_HIT,         95, WATER,        100, 15,   0
+	move SURF,         EFFECT_NORMAL_HIT,         90, WATER,        100, 15,   0
 	move ICE_BEAM,     EFFECT_FREEZE_HIT,         95, ICE,          100, 15,  10
 	move BLIZZARD,     EFFECT_FREEZE_HIT,        120, ICE,           85,  5,  10
 	move PSYBEAM,      EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE, 100, 20,  10
@@ -202,7 +202,7 @@ Moves:
 	move BELLY_DRUM,   EFFECT_BELLY_DRUM,          0, NORMAL,       100, 10,   0
 	move SLUDGE_BOMB,  EFFECT_POISON_HIT,         90, POISON,       100, 15,  30
 	move MUD_SLAP,     EFFECT_ACCURACY_DOWN_HIT,  20, GROUND,       100, 15, 100
-	move OCTAZOOKA,    EFFECT_ACCURACY_DOWN_HIT,  65, WATER,        100, 15,  50
+	move OCTAZOOKA,    EFFECT_ACCURACY_DOWN_HIT, 100, WATER,         95, 15,  50
 	move SPIKES,       EFFECT_SPIKES,              0, GROUND,       100, 20,   0
 	move ZAP_CANNON,   EFFECT_PARALYZE_HIT,      100, ELECTRIC,      50,  5, 100
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL,       100, 40,   0
@@ -254,7 +254,7 @@ Moves:
 	move TWISTER,      EFFECT_TWISTER,            70, DRAGON,       100, 20,  20
 	move RAIN_DANCE,   EFFECT_RAIN_DANCE,          0, WATER,         90, 10,   0
 	move SUNNY_DAY,    EFFECT_SUNNY_DAY,           0, FIRE,          90, 10,   0
-	move CRUNCH,       EFFECT_DEFENSE_DOWN_HIT,    80, DARK,        100, 15,  20
+	move CRUNCH,       EFFECT_FLINCH_HIT,         90, DARK,         100, 15,  20
 	move MIRROR_COAT,  EFFECT_MIRROR_COAT,         1, PSYCHIC_TYPE, 100, 20,   0
 	move PSYCH_UP,     EFFECT_PSYCH_UP,            0, NORMAL,       100, 10,   0
 	move EXTREMESPEED, EFFECT_PRIORITY_HIT,       80, NORMAL,       100, 10,   0
