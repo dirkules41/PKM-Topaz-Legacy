@@ -2375,14 +2375,17 @@ TotodileEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 7, WATER_GUN
-	db 12, RAGE
+	db 12, MUD_SLAP
+	db 15, ANCIENTPOWER
 	db 18, BITE
 	db 20, BUBBLEBEAM
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, CRUNCH
-	db 55, HYDRO_PUMP
+	db 22, ICE_PUNCH
+	db 25, MAGNITUDE
+	db 28, SURF
+	db 32, CRUNCH
+	db 40, ICE_BEAM
+	db 45, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2390,16 +2393,18 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, WATER_GUN
-	db 1, RAGE
+	db 7, WATER_GUN
+	db 12, MUD_SLAP
+	db 15, ANCIENTPOWER
 	db 18, BITE
 	db 20, BUBBLEBEAM
-	db 25, DRAGON_RAGE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, CRUNCH
-	db 55, HYDRO_PUMP
+	db 22, ICE_PUNCH
+	db 25, MAGNITUDE
+	db 28, SURF
+	db 32, CRUNCH
+	db 40, ICE_BEAM
+	db 45, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
@@ -2407,17 +2412,17 @@ FeraligatrEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 7, WATER_GUN
-	db 12, RAGE
+	db 12, MUD_SLAP
+	db 15, ANCIENTPOWER
 	db 18, BITE
 	db 20, BUBBLEBEAM
-	db 25, DRAGON_RAGE
-	db 28, SCARY_FACE
-	db 30, DRAGONBREATH
-	db 37, SLASH
-	db 45, SCREECH
-	db 50, CRUNCH
-	db 55, HYDRO_PUMP
-	db 65, OUTRAGE
+	db 22, ICE_PUNCH
+	db 25, MAGNITUDE
+	db 28, SURF
+	db 32, CRUNCH
+	db 40, ICE_BEAM
+	db 45, EARTHQUAKE
+	db 50, OCTAZOOKA
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
