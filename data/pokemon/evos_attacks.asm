@@ -2374,7 +2374,8 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, WATER_GUN
+	db 6, WATER_GUN
+	db 8, ICY_WIND
 	db 12, MUD_SLAP
 	db 15, ANCIENTPOWER
 	db 18, BITE
@@ -2393,7 +2394,8 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, WATER_GUN
+	db 6, WATER_GUN
+	db 8, ICY_WIND
 	db 12, MUD_SLAP
 	db 15, ANCIENTPOWER
 	db 18, BITE
@@ -2411,7 +2413,8 @@ FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, WATER_GUN
+	db 6, WATER_GUN
+	db 8, ICY_WIND
 	db 12, MUD_SLAP
 	db 15, ANCIENTPOWER
 	db 18, BITE
